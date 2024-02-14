@@ -1,0 +1,26 @@
+body {
+    background-image: url('img_girl.jpg');
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+.yes-button{
+    background-color: green;
+    color: white;
+}
+.no-button{
+    background-color: red;
+    color: white;
+}
